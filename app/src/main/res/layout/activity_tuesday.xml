@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FF9800"
-    tools:context=".monday">
+    tools:context=".tuesday">
 
     <TextView
         android:id="@+id/day"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="MONDAY SCHEDULE:"
+        android:text="@string/tuesday_schedule"
         android:textAllCaps="true"
         android:textColor="@android:color/white"
         android:textSize="36sp"
@@ -86,7 +86,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/b1"
+                android:text="Analog Communication and Transmission Line Theory (CT215)"
                 android:textColor="@android:color/black"
                 android:textSize="24sp"
                 app:fontFamily="@font/acme" />
@@ -113,7 +113,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/b2"
+                android:text="Free"
                 android:textColor="@android:color/black"
                 android:textSize="24sp"
                 app:fontFamily="@font/acme" />
@@ -141,7 +141,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/b3"
+                android:text="Engineered Materials (SC221)"
                 android:textColor="@android:color/black"
                 android:textSize="24sp"
                 app:fontFamily="@font/acme" />
@@ -168,7 +168,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/b4"
+                android:text="Analog Circuits (EL213)"
                 android:textColor="@android:color/black"
                 android:textSize="24sp"
                 app:fontFamily="@font/acme" />

@@ -9,7 +9,6 @@ import android.widget.Button;
 import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
-    public static final String key="com.example.TimeTableWinter2021.key";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,9 +18,11 @@ public class MainActivity extends AppCompatActivity {
     public void monday(View view)
     {
         Intent intent=new Intent(this,monday.class);
-        Button b1=findViewById(R.id.button1);
-        String message=b1.getText().toString() + " Schedule: ";
-        intent.putExtra(key,message);
+        startActivity(intent);
+    }
+    public void tuesday(View view)
+    {
+        Intent intent=new Intent(this,tuesday.class);
         startActivity(intent);
     }
 }
