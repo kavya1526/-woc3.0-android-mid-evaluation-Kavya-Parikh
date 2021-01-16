@@ -9,8 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".tuesday" android:parentActivityName=".MainActivity"></activity>
-        <activity android:name=".monday" android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".saturday" android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".friday" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".thursday" android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".wednesday"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".tuesday"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".monday"
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

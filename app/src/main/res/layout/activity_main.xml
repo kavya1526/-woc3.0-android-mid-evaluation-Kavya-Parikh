@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FDDE80"
     tools:context=".MainActivity">
 
     <TextView
@@ -34,44 +35,66 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="#131313"
             android:onClick="monday"
-            android:text="@string/button1" />
+            android:text="@string/button1"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@android:color/black"
             android:onClick="tuesday"
-            android:text="@string/button2" />
+            android:text="@string/button2"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
 
         <Button
             android:id="@+id/button3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/button3" />
+            android:background="@android:color/black"
+            android:onClick="wednesday"
+            android:text="@string/button3"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
 
         <Button
             android:id="@+id/button4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/button4" />
+            android:background="@android:color/black"
+            android:onClick="thursday"
+            android:text="@string/button4"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
 
         <Button
             android:id="@+id/button5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/button5" />
+            android:background="@android:color/black"
+            android:onClick="friday"
+            android:text="@string/button5"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
 
         <Button
             android:id="@+id/button6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/button6" />
+            android:background="@android:color/black"
+            android:onClick="saturday"
+            android:text="@string/button6"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
