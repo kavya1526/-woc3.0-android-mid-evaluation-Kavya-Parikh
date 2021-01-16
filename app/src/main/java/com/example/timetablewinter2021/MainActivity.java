@@ -49,5 +49,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent=new Intent(this,saturday.class);
         startActivity(intent);
     }
-
+    public void professor(View view)
+    {
+        Intent intent=new Intent(this,professor.class);
+        startActivity(intent);
+    }
 }
