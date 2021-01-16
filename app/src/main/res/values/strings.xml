@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Time Table Winter 2021</string>
+    <string name="time_table">Time Table</string>
+    <string name="button1">Monday</string>
+    <string name="button2">Tuesday</string>
+    <string name="button3">Wednesday</string>
+    <string name="button4">Thursday</string>
+    <string name="button5">Friday</string>
+    <string name="button6">Saturday</string>
+</resources>
